@@ -1,0 +1,38 @@
+ body {
+        font-family: Arial, sans-serif;
+        display: flex; /* usa o flexbox para exibir o conteudo */
+        justify-content: center;
+        height: 97vh;
+        align-items: center;
+        background-color: whitesmoke;
+}
+.container {
+    background-color: sandybrown;
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+    /* 4px (horizontal) 8px (verticaç) */
+    box-shadow: 4px 8px; /* sombreamento */
+    text-align: center; /* centraliza texto */
+}
+
+h2{
+    padding: 5px;
+}
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px; /* espaçamento interno */
+    border-radius:  5px;
+    cursor: pointer; /* mouse vira ponteiro */
+}
+/* cria efeito de passar o mouse no botao */
+button:hover {
+    background-color:  lightblue;
+}
+.imagem {
+    border-radius: 50%;
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    margin-bottom: 10px; /* espaçamento esterno */
+}
